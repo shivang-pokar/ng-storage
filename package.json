@@ -19,6 +19,7 @@
     "Angular session storage",
     "Angular storage service"
   ],
+  "licens":"MIT",
   "licenses": [
     {
       "type": "MIT",
