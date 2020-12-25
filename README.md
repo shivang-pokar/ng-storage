@@ -98,3 +98,11 @@ this.ngStorage.getLocalStorage(this.getStorageOption).then(resp => {
 | `getSessionStorageAllKey().then(() => { })` | To get **All Session Store** |
 | `removeSessionStorageItem(key).then(() => { })` | To **remove** Session Store Item |
 | `clearAllSessionStorage().then(() => { })` | To clear **All Session Store** |
+
+
+## If you Like
+
+Give a ⭐️ if this App helped you!
+
+
+__Authors__:  [Shivang Pokar](https://github.com/shivang-pokar)
