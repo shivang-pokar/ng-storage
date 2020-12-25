@@ -1,5 +1,5 @@
 {
-  "name": "ng-storage",
+  "name": "ng-storage-local",
   "version": "1.0.0",
   "description": "An Angular module that makes Web Storage working in the Angular Way",
   "author": "Shivang Pokar",

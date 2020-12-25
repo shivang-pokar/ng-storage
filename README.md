@@ -10,7 +10,7 @@ An Angular module that makes Web Storage working in Angular way.
 
 ### NPM
 ```bash
-npm install ngstorage
+npm i ng-storage-local
 ```
 
 # Usage
