@@ -1,0 +1,35 @@
+{
+  "name": "ng-storage",
+  "version": "1.0.0",
+  "description": "An Angular module that makes Web Storage working in the Angular Way",
+  "author": "Shivang Pokar",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shivang-pokar/ng-storage.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shivang-pokar/ng-storage/issues"
+  },
+  "homepage": "https://github.com/shivang-pokar/ng-storage",
+  "keywords": [
+    "ng-storage",
+    "ngStorage",
+    "Angular Storage",
+    "Angular local storage",
+    "Angular session storage",
+    "Angular storage service"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/shivang-pokar/ng-storage/blob/master/LICENSE"
+    }
+  ],
+  "peerDependencies": {
+    "@angular/common": "^11.0.5",
+    "@angular/core": "^11.0.5"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  }
+}
