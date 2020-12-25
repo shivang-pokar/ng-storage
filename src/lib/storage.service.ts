@@ -109,6 +109,19 @@ export class NgStorage {
     })
   }
 
+  /* To Clear Local Storage */
+  async clearAllLocalStorage() {
+    return await new Promise((resolve, reject) => {
+      if (window.localStorage.length > 0) {
+        window.localStorage.clear()
+        resolve({ error: false, message: "All local storage are cleared" });
+      }
+      else {
+        reject({ error: true, message: " No local storage stored" });
+      }
+    })
+  }
+
 
 
   /**
@@ -195,7 +208,36 @@ export class NgStorage {
       }
     })
   }
+  
+  /**
+  @removeLocalStorageItem
+  * Remove data in local storage
+  */
+  async removeSessionStorageItem(key: string): Promise<any> {
+    return await new Promise((resolve, reject) => {
+      if (key) {
+        window.sessionStorage.removeItem(key);
+        resolve({ error: false, message: key + " removed successfully" });
+      }
+      else {
+        reject({ error: true, message: "Please pass key to remove" });
+      }
+    })
+  }
 
+
+
+  async clearAllSessionStorage() {
+    return await new Promise((resolve, reject) => {
+      if (window.sessionStorage.length > 0) {
+        window.sessionStorage.clear();
+        resolve({ error: false, message: "All session storage are cleared" });
+      }
+      else {
+        reject({ error: true, message: " No session storage stored" });
+      }
+    })
+  }
 
 
 
